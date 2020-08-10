@@ -2,7 +2,7 @@
 // One-bit wide, N-bit long shift register
 
 module basic_shift_register 
-#(parameter N=256)
+	#(parameter N=4)				// 4-bit register
 (
 	input clk, enable,
 	input sr_in,
